@@ -1,0 +1,7 @@
+config BR2_PACKAGE_NINVADERS
+	bool "ninvaders"
+	select BR2_PACKAGE_NCURSES
+	help
+	  A Space Invaders Clone based on ncurses.
+
+	  http://ninvaders.sourceforge.net/
